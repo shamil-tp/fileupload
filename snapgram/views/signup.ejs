@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Div with Image and Login</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <!-- Image Section -->
+            <div class="image">
+                <img src="/img/img.png" alt="Sample Image">
+            </div>
+            <!-- Login Form -->
+             <div class="right">   
+                <div class="form-container">
+                <h2>Sign Up </h2>
+                <form action="/signup" method="post">
+                    <p>Name</p>
+                    <input type="text" placeholder="" required name="name">
+                    <p>Email</p>
+                    <input type="email" placeholder="" required name="email">
+                    <p>Phone</p>
+                    <input type="number" placeholder="" required name="phone">
+                    <p>password</p>
+                    <input type="password" placeholder="" required name="password">
+                    <br><br><br>
+                    <button type="submit">Sign Up</button>
+                    <p>Already have an account?<a href="/login"> Log in here</p></a>
+                </form>
+            </div>   </div>
+            
+        </div>
+    </div>
+</body>
+</html>
